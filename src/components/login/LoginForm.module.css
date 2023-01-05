@@ -1,0 +1,31 @@
+form input {
+  margin-bottom: 12px;
+  padding: 20px 0;
+  border-radius: 4px;
+  height: 75px;
+}
+form input::placeholder {
+  font-family: "poppins";
+  opacity: 0.4;
+}
+form input[type="submit"] {
+  font-size: 18px;
+  font-family: "poppins";
+}
+
+form button {
+  width: 100%;
+  background: var(--primary);
+  color: var(--light);
+  border: none;
+  height: 75px;
+  font-size: 18px;
+  font-family: "Poppins";
+
+  border-radius: 4px;
+}
+
+form button:hover {
+  background: var(--secondary);
+  color: black;
+}
