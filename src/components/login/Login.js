@@ -10,9 +10,16 @@ const Login = () => {
       <LoginForm />
       <p className={`text-center py-4 m-0`}>OR</p>
       <div className={style.account}>
-        <a href="#"> Continue with Google </a>
-        <a href="#"> Continue with Microoft </a>
-        <a href="#"> Continue with Apple</a>
+        <a href="#">
+          <i className={` fa-brands fa-google ${style.googleIcon}`}></i>
+          Continue with Google
+        </a>
+        <a href="#">
+          <i className="fa-brands fa-microsoft"></i> Continue with Microoft{" "}
+        </a>
+        <a href="#">
+          <i className="fa-brands fa-apple"></i> Continue with Apple
+        </a>
       </div>
       <div className={`mt-4 ${style.user}`}>
         <a href="#">Can't Login?</a>

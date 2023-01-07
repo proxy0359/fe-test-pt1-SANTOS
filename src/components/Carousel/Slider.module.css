@@ -1,0 +1,86 @@
+.slider {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.rightArrow {
+  top: 50%;
+
+  font-size: 3rem;
+  columns: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.leftArrow {
+  cursor: pointer;
+
+  top: 50%;
+}
+
+.rightArrow,
+.leftArrow {
+  width: 66px;
+  height: 66px;
+  padding: 25px;
+  margin: 0 30px;
+  border-radius: 50%;
+  border: 1px solid #c4cafb;
+  fill: #757bb1;
+}
+
+.dot {
+  height: 18px;
+  width: 18px;
+  background: #d5ddf7;
+
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.dotActive {
+  border: 5px solid #d5ddf7;
+  background: #fff;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin: auto;
+  width: 430px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+@media (max-width: 890px) {
+  .slide {
+    width: min-content;
+  }
+  .rightArrow,
+  .leftArrow {
+    margin: 0 5px;
+  }
+}

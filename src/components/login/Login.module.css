@@ -8,6 +8,7 @@
   font-family: "merriweather";
   margin-bottom: 32px;
 }
+
 .account a {
   width: 100%;
   background: #f8f8fb;
@@ -28,12 +29,16 @@
 }
 .user {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .user a {
   text-decoration: none;
+  display: block;
+
   font-family: "Poppins";
-  font-size: 18px;
+  text-align: center;
+
   color: black;
 }
 .user span {
@@ -46,4 +51,10 @@
 .user a:hover,
 .account a:hover {
   color: var(--secondary);
+}
+
+.account a i {
+  font-size: 30px;
+  text-align: center;
+  padding-right: 12px;
 }

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.carouselItem {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardItem {
+  padding: 20px;
+  display: flex;
+}
+
+.iconCard {
+  width: 60px;
+  height: 60px;
+  padding: 16px 0;
+
+  border-radius: 15px;
+
+  text-align: center;
+  background: #f4f7ff;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.iconCard:hover {
+  border: 1px solid black;
+}
+
+.iconCard i {
+  font-size: 25px;
+}
+
+.paragraph {
+  width: inherit;
+  height: 50px;
+}
+
+.paragraph h1 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #1d2144;
+  font-weight: 800;
+}
+.paragraph p {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+@media (max-width: 630px) {
+}

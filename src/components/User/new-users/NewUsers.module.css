@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  font-family: "Merriweather";
+  flex: 1;
+
+  flex-basis: 32%;
+}
+
+.userInfo h1 {
+  font-family: "Merriweather";
+  font-weight: 900;
+  font-size: 18px;
+  display: block;
+  width: fit-content;
+}
+
+.card img {
+  width: 97px;
+  height: 97px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.userInfo .info {
+  display: block;
+  width: fit-content;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.userTag {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userTag p {
+  padding-bottom: 0;
+}

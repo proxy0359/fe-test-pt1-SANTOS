@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.userNav ul {
+  display: flex;
+  padding-left: 0;
+}
+
+.userNav ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.userNav ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  color: #151b32;
+  display: block;
+  width: auto;
+  height: auto;
+
+  padding: 16px;
+}
+
+.userNav ul li a:hover,
+.active {
+  background-color: #849fff;
+  color: #ffffff !important;
+  border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+  .userNav ul {
+    display: block;
+    margin: auto;
+    width: fit-content;
+  }
+}
